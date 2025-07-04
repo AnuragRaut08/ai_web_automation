@@ -24,23 +24,7 @@ to **scrape user data**, **provision/deprovision users**, and **adapt to UI chan
 
 ```
 
-┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
-│   CloudEagle    │    │   AI Agent      │    │   Browser       │
-│   Dashboard     │◄──►│   Controller    │◄──►│   Manager       │
-└─────────────────┘    └─────────────────┘    └─────────────────┘
-                                │
-                                ▼
-                       ┌─────────────────┐
-                       │   SaaS Adapter  │
-                       │   Factory       │
-                       └─────────────────┘
-                                │
-                    ┌───────────┼───────────┐
-                    ▼           ▼           ▼
-            ┌─────────────┐ ┌─────────────┐ ┌─────────────┐
-            │   Notion    │ │   Dropbox   │ │   Custom    │
-            │   Adapter   │ │   Adapter   │ │   Adapter   │
-            └─────────────┘ └─────────────┘ └─────────────┘
+<pre> ```mermaid flowchart TD CloudEagle[CloudEagle Dashboard] AIController[AI Agent Controller] BrowserManager[Browser Manager] SaaSFactory[SaaS Adapter Factory] NotionAdapter[Notion Adapter] DropboxAdapter[Dropbox Adapter] CustomAdapter[Custom Adapter] CloudEagle --> AIController AIController <--> BrowserManager AIController --> SaaSFactory SaaSFactory --> NotionAdapter SaaSFactory --> DropboxAdapter SaaSFactory --> CustomAdapter ``` </pre>
 
 ```
 

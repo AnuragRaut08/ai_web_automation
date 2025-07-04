@@ -1,1 +1,27 @@
+app:
+  name: "SaaS Automation Agent"
+  version: "1.0.0"
+  
+browser:
+  headless: true
+  timeout: 30000
+  viewport:
+    width: 1920
+    height: 1080
 
+ai:
+  provider: "openai"
+  model: "gpt-4"
+  temperature: 0.1
+  max_tokens: 2000
+
+saas_apps:
+  notion:
+    base_url: "https://notion.so"
+    login_url: "https://notion.so/login"
+    admin_url: "https://notion.so/settings/members"
+  
+  dropbox:
+    base_url: "https://dropbox.com"
+    login_url: "https://dropbox.com/login"
+    admin_url: "https://dropbox.com/manage/admin"

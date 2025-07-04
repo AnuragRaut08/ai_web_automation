@@ -20,11 +20,7 @@ to **scrape user data**, **provision/deprovision users**, and **adapt to UI chan
 
 ---
 
-## 🏗 Architecture
 
-```
-
-<pre> ```mermaid flowchart TD CloudEagle[CloudEagle Dashboard] AIController[AI Agent Controller] BrowserManager[Browser Manager] SaaSFactory[SaaS Adapter Factory] NotionAdapter[Notion Adapter] DropboxAdapter[Dropbox Adapter] CustomAdapter[Custom Adapter] CloudEagle --> AIController AIController <--> BrowserManager AIController --> SaaSFactory SaaSFactory --> NotionAdapter SaaSFactory --> DropboxAdapter SaaSFactory --> CustomAdapter ``` </pre>
 
 ```
 

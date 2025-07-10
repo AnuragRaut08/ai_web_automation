@@ -12,7 +12,7 @@ A robust, scalable solution that extracts user data, provisions/deprovisions acc
 Many SaaS applications lack APIs for user management.  
 This framework uses a combination of:
 
-✅ **Headless browser automation (Playwright)**  
+✅ **Headless browser automation using (Playwright)**  
 ✅ **AI/LLM-assisted UI detection (OpenAI function calling)**  
 ✅ **Custom RPA workflows**  
 

@@ -20,6 +20,7 @@ saas_apps:
     base_url: "https://notion.so"
     login_url: "https://notion.so/login"
     admin_url: "https://notion.so/settings/members"
+    
   
   dropbox:
     base_url: "https://dropbox.com"

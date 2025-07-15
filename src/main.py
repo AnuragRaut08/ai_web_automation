@@ -18,7 +18,7 @@ async def main():
     config = load_config("config.yaml")
 
     # Initialize core components
-    browser_manager = BrowserManager(headless=False)  # Headless=False for dev
+    browser_manager = BrowserManager(headless=False)  # Headless=False ..set for dev
     ai_agent = AIAgent()
     data_extractor = DataExtractor()
     auth_handler = AuthHandler()

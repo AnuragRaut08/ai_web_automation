@@ -10,6 +10,7 @@ from utils.captcha_solver import CaptchaSolver
 from utils.config import load_config
 from adapters.notion_adapter import NotionAdapter
 
+
 # Setup logging
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
